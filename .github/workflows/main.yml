@@ -1,70 +1,95 @@
 
-name: Build Nusuk AI APK
+name: Nusuk AI Automatic Update and APK Build
 
 on:
-  workflow_dispatch:
   push:
     branches:
-      - main
+      - project-update
+  workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
-  build:
+  update-and-build:
     runs-on: ubuntu-latest
+    timeout-minutes: 45
 
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v5
+        uses: actions/checkout@v4
+        with:
+          ref: project-update
+          fetch-depth: 0
 
-      - name: Find and Extract Project ZIP
+      - name: Find and Extract Updated ZIP
         run: |
-          mkdir -p project
-          ZIP=$(find . -maxdepth 2 -type f -name "*.zip" | head -n 1)
+          ZIP="Nusuk-AI-Project-Updated.zip"
 
-          if [ -z "$ZIP" ]; then
-            echo "ERROR: No ZIP file found!"
+          if [ ! -f "$ZIP" ]; then
+            echo "ERROR: Updated ZIP not found!"
+            ls -la
             exit 1
           fi
 
-          echo "Found ZIP: $ZIP"
-          unzip -q "$ZIP" -d project
+          mkdir -p "$RUNNER_TEMP/unpacked"
+          unzip -q "$ZIP" -d "$RUNNER_TEMP/unpacked"
 
-      - name: Fix XML Namespace
+          if [ ! -d "$RUNNER_TEMP/unpacked/Nusuk-AI" ]; then
+            echo "ERROR: Nusuk-AI folder not found!"
+            exit 1
+          fi
+
+      - name: Update Project Source Code
         run: |
-          find project -name activity_onboarding.xml -exec sed -i 's#http://schemas.android.com/apk/res/auto#http://schemas.android.com/apk/res-auto#g' {} +
+          rsync -a --delete \
+            --exclude='.git/' \
+            --exclude='.github/workflows/main.yml' \
+            --exclude='Nusuk-AI-Project-Updated.zip' \
+            "$RUNNER_TEMP/unpacked/Nusuk-AI/" ./
 
-      - name: Setup Java
-        uses: actions/setup-java@v5
+          rm -f Nusuk-AI-Project-Updated.zip
+
+      - name: Save Updated Source Code
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add -A
+
+          if ! git diff --cached --quiet; then
+            git commit -m "Update Nusuk AI Android source"
+            git push origin HEAD:project-update
+          fi
+
+      - name: Setup Java 17
+        uses: actions/setup-java@v4
         with:
           distribution: temurin
-          java-version: 17
+          java-version: '17'
 
-      - name: Setup Gradle
-        uses: gradle/actions/setup-gradle@v4
+      - name: Setup Android SDK
+        uses: android-actions/setup-android@v3
 
-      - name: Find Android Project
+      - name: Install Android SDK
         run: |
-          GRADLE_FILE=$(find project -name build.gradle.kts -not -path "*/app/*" | head -n 1)
+          yes | sdkmanager --licenses || true
+          sdkmanager "platform-tools" "platforms;android-35" "build-tools;35.0.0"
 
-          if [ -z "$GRADLE_FILE" ]; then
-            echo "ERROR: Android Gradle project not found!"
-            exit 1
-          fi
+      - name: Setup Gradle 8.9
+        uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: '8.9'
 
-          PROJECT_DIR=$(dirname "$GRADLE_FILE")
-          echo "PROJECT_DIR=$PROJECT_DIR" >> "$GITHUB_ENV"
-          echo "Project: $PROJECT_DIR"
+      - name: Generate Gradle Wrapper
+        run: gradle wrapper --gradle-version 8.9
 
       - name: Build Debug APK
-        run: |
-          cd "$PROJECT_DIR"
-          gradle assembleDebug
+        run: ./gradlew --no-daemon --stacktrace assembleDebug
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
           name: Nusuk-AI-debug-apk
-          path: project/**/build/outputs/apk/debug/*.apk
+          path: app/build/outputs/apk/debug/app-debug.apk
           if-no-files-found: error
