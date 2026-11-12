@@ -3,8 +3,6 @@ name: Build Nusuk AI APK
 
 on:
   workflow_dispatch:
-  push:
-    branches: [main]
 
 jobs:
   build:
@@ -13,27 +11,24 @@ jobs:
     steps:
       - uses: actions/checkout@v5
 
+      - name: Extract ZIP
+        run: |
+          unzip -q Nusuk-AI-Project.zip -d project
+
       - uses: actions/setup-java@v5
         with:
           distribution: temurin
           java-version: 17
 
-      - name: Extract Project ZIP
-        run: |
-          unzip -q Nusuk-AI-Project.zip -d project
-
-      - name: Locate Gradle Project
-        run: |
-          find project -name gradlew -type f
+      - uses: gradle/actions/setup-gradle@v4
 
       - name: Build APK
         run: |
-          chmod +x project/gradlew
-          cd project
-          ./gradlew assembleDebug
+          cd project/Nusuk-AI
+          gradle assembleDebug
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
           name: Nusuk-AI-debug-apk
-          path: project/**/build/outputs/apk/debug/*.apk
+          path: project/Nusuk-AI/app/build/outputs/apk/debug/*.apk
