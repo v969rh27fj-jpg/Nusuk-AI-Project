@@ -1,0 +1,553 @@
+{
+ "version": 1,
+ "reviewed": false,
+ "topics": [
+  {
+   "id": "hajj_ihram",
+   "category": "hajj",
+   "order": 1,
+   "arabic": "الإحرام",
+   "title": {
+    "bn": "ইহরাম",
+    "en": "Ihram",
+    "ar": "الإحرام"
+   },
+   "summary": {
+    "bn": "ইহরাম হলো হজ বা উমরাহ শুরুর নিয়ত করে বিশেষ পবিত্র অবস্থায় প্রবেশ করা।",
+    "en": "Ihram is making the intention to begin Hajj or Umrah and entering the special state of sanctity.",
+    "ar": "الإحرام هو نيّة الدخول في نسك الحج أو العمرة والدخول في حالة الإحرام."
+   },
+   "steps": {
+    "bn": [
+     "গোসল বা পরিচ্ছন্নতা অর্জন করুন; পুরুষেরা সেলাইবিহীন দুই টুকরো সাদা কাপড় (ইযার ও রিদা) পরেন, নারীরা শালীন সাধারণ পোশাক পরেন।",
+     "মীকাতে পৌঁছে বা তার আগে হজ/উমরাহর নিয়ত করুন।",
+     "তালবিয়া পাঠ করুন: لَبَّيْكَ اللَّهُمَّ لَبَّيْكَ، لَبَّيْكَ لَا شَرِيكَ لَكَ لَبَّيْكَ، إِنَّ الْحَمْدَ وَالنِّعْمَةَ لَكَ وَالْمُلْكَ، لَا شَرِيكَ لَكَ",
+     "ইহরাম অবস্থায় নিষিদ্ধ কাজ (যেমন চুল-নখ কাটা, সুগন্ধি ব্যবহার, শিকার, স্বামী-স্ত্রীর মেলামেশা, ঝগড়া-বিবাদ) থেকে বিরত থাকুন।"
+    ],
+    "en": [
+     "Take a ghusl or freshen up. Men wear two unstitched white sheets (izar and rida); women wear ordinary modest clothing.",
+     "Make the intention for Hajj or Umrah at the Miqat (or before reaching it).",
+     "Recite the Talbiyah: لَبَّيْكَ اللَّهُمَّ لَبَّيْكَ، لَبَّيْكَ لَا شَرِيكَ لَكَ لَبَّيْكَ، إِنَّ الْحَمْدَ وَالنِّعْمَةَ لَكَ وَالْمُلْكَ، لَا شَرِيكَ لَكَ",
+     "Avoid what is prohibited in Ihram (such as cutting hair or nails, perfume, hunting, marital relations, arguing)."
+    ],
+    "ar": [
+     "اغتسل أو تنظّف؛ ويلبس الرجل إزارًا ورداءً أبيضين غير مخيطين، وتلبس المرأة ثيابها الساترة المعتادة.",
+     "انوِ الحج أو العمرة عند الميقات (أو قبل الوصول إليه).",
+     "لبِّ بالتلبية: لَبَّيْكَ اللَّهُمَّ لَبَّيْكَ، لَبَّيْكَ لَا شَرِيكَ لَكَ لَبَّيْكَ، إِنَّ الْحَمْدَ وَالنِّعْمَةَ لَكَ وَالْمُلْكَ، لَا شَرِيكَ لَكَ",
+     "اجتنب محظورات الإحرام (كقص الشعر والأظافر، والطيب، والصيد، والجماع، والجدال)."
+    ]
+   },
+   "references": [
+    "Qur'an 2:196-197",
+    "Sahih al-Bukhari & Sahih Muslim, hadith of Ibn Umar on what a muhrim wears",
+    "Sahih Muslim, hadith of Jabir (Muslim 1218)"
+   ]
+  },
+  {
+   "id": "hajj_miqat",
+   "category": "hajj",
+   "order": 2,
+   "arabic": "الميقات",
+   "title": {
+    "bn": "মীকাত",
+    "en": "Miqat",
+    "ar": "الميقات"
+   },
+   "summary": {
+    "bn": "মীকাত হলো সেই নির্ধারিত সীমানা, যেখান থেকে মক্কার উদ্দেশে আসা হজ/উমরাহযাত্রী ইহরাম ছাড়া অতিক্রম করতে পারেন না।",
+    "en": "The Miqat is the appointed boundary that a pilgrim heading to Makkah for Hajj or Umrah must not pass without entering Ihram.",
+    "ar": "الميقات هو الحدّ المعيّن الذي لا يجوز لمن قصد مكة للحج أو العمرة أن يتجاوزه دون إحرام."
+   },
+   "steps": {
+    "bn": [
+     "মদিনার দিক থেকে আগতদের মীকাত যুল-হুলাইফা (আবইয়ার আলী); সিরিয়া/মিসর/মাগরিবের দিক থেকে আল-জুহফা; নজদের দিক থেকে কারনুল-মানাযিল; ইয়েমেনের দিক থেকে ইয়ালামলাম।",
+     "যারা এই সীমানার ভেতরে থাকেন, তারা নিজ বাসস্থান থেকে ইহরাম বাঁধেন; মক্কাবাসী হজের ইহরাম মক্কা থেকেই বাঁধেন।",
+     "বিমানযাত্রীরা সাধারণত মীকাত বরাবর পৌঁছানোর আগেই ইহরামের প্রস্তুতি নেন; এয়ারলাইন বা দলনেতার ঘোষণা অনুসরণ করুন।"
+    ],
+    "en": [
+     "For those coming from the direction of Madinah the Miqat is Dhul-Hulayfah (Abyar Ali); from Syria/Egypt/the Maghrib it is Al-Juhfah; from Najd it is Qarn al-Manazil; from Yemen it is Yalamlam.",
+     "Those living inside these boundaries start Ihram from where they live; people of Makkah start the Hajj Ihram from Makkah.",
+     "Air travellers usually prepare for Ihram before the plane reaches the Miqat line; follow the airline's or your group leader's announcement."
+    ],
+    "ar": [
+     "ميقات القادمين من جهة المدينة ذو الحليفة (أبيار علي)، ومن جهة الشام ومصر والمغرب الجحفة، ومن نجد قرن المنازل، ومن اليمن يلملم.",
+     "من كان داخل هذه المواقيت أحرم من مكانه، وأهل مكة يُحرمون بالحج من مكة.",
+     "يستعد المسافرون جوًّا للإحرام قبل محاذاة الميقات؛ فاتبع إعلان شركة الطيران أو مسؤول المجموعة."
+    ]
+   },
+   "references": [
+    "Sahih al-Bukhari & Sahih Muslim, hadith of Ibn Abbas on the mawaqit (Book of Hajj)"
+   ]
+  },
+  {
+   "id": "hajj_mina",
+   "category": "hajj",
+   "order": 3,
+   "arabic": "منى",
+   "title": {
+    "bn": "মিনা",
+    "en": "Mina",
+    "ar": "منى"
+   },
+   "summary": {
+    "bn": "মিনা মক্কার কাছে একটি উপত্যকা। হজের দিনগুলোতে হাজিরা এখানে অবস্থান ও নামায আদায় করেন।",
+    "en": "Mina is a valley near Makkah where pilgrims stay and pray during the days of Hajj.",
+    "ar": "منى وادٍ قرب مكة يقيم فيه الحجاج ويصلّون خلال أيام الحج."
+   },
+   "steps": {
+    "bn": [
+     "৮ জিলহজ (ইয়াউমুত-তারউইয়াহ) মিনায় যান এবং সেখানে যোহর, আসর, মাগরিব, ইশা ও ফজর আদায় করুন; চার রাকাতের নামায কসর (দুই রাকাত) করুন, জমা নয়।",
+     "৯ জিলহজ সূর্যোদয়ের পর আরাফাতের উদ্দেশে রওনা দিন।",
+     "মুযদালিফা থেকে ফিরে ১০ জিলহজ জামারাতে কঙ্কর নিক্ষেপ করুন এবং আইয়ামে তাশরীকের (১১, ১২ ও যারা থাকেন তাদের ১৩ তারিখ) রাতগুলো মিনায় কাটান।"
+    ],
+    "en": [
+     "On 8 Dhul Hijjah (Yawm at-Tarwiyah) go to Mina and pray Dhuhr, Asr, Maghrib, Isha and Fajr there; shorten the four-rak'ah prayers to two, without combining them.",
+     "After sunrise on 9 Dhul Hijjah set out for Arafat.",
+     "After Muzdalifah return to Mina to stone the Jamarat on 10 Dhul Hijjah and spend the nights of the days of Tashreeq there (11th, 12th, and the 13th for those who stay)."
+    ],
+    "ar": [
+     "في اليوم الثامن من ذي الحجة (يوم التروية) اذهب إلى منى وصلِّ فيها الظهر والعصر والمغرب والعشاء والفجر، مع قصر الرباعية دون جمع.",
+     "بعد طلوع شمس اليوم التاسع انطلق إلى عرفات.",
+     "بعد مزدلفة ارجع إلى منى لرمي الجمرات يوم العيد، وبِت فيها ليالي أيام التشريق (11 و12 ولمن تأخر 13)."
+    ]
+   },
+   "references": [
+    "Qur'an 2:203",
+    "Sahih Muslim, hadith of Jabir (Muslim 1218)"
+   ]
+  },
+  {
+   "id": "hajj_arafat",
+   "category": "hajj",
+   "order": 4,
+   "arabic": "عرفات",
+   "title": {
+    "bn": "আরাফাত",
+    "en": "Arafat",
+    "ar": "عرفات"
+   },
+   "summary": {
+    "bn": "৯ জিলহজ আরাফাতের ময়দানে অবস্থান (উকুফ) হজের প্রধান রুকন। হাদিসে এসেছে: \"হজ হলো আরাফাহ\"।",
+    "en": "Standing at Arafat on 9 Dhul Hijjah is the main pillar of Hajj. The hadith says: \"Hajj is Arafah.\"",
+    "ar": "الوقوف بعرفة يوم التاسع من ذي الحجة هو الركن الأعظم في الحج؛ قال النبي ﷺ: «الحج عرفة»."
+   },
+   "steps": {
+    "bn": [
+     "আরাফাতের নির্ধারিত সীমানার ভেতরে অবস্থান করুন।",
+     "সুন্নাহ অনুযায়ী যোহরের সময় যোহর ও আসর একসাথে কসর করে পড়া হয়।",
+     "কিবলামুখী হয়ে দোয়া, যিকির, তালবিয়া ও কুরআন তিলাওয়াতে সময় কাটান।",
+     "সূর্যাস্তের আগে আরাফাত ত্যাগ করবেন না।"
+    ],
+    "en": [
+     "Make sure you are inside the marked boundaries of Arafat.",
+     "Following the Sunnah, Dhuhr and Asr are prayed together, shortened, at the time of Dhuhr.",
+     "Spend the time facing the qiblah in dua, dhikr, talbiyah and Quran recitation.",
+     "Do not leave Arafat before sunset."
+    ],
+    "ar": [
+     "تأكد أنك داخل حدود عرفة المحدّدة.",
+     "السنّة أن تُجمع الظهر والعصر قصرًا جمع تقديم في وقت الظهر.",
+     "أكثر من الدعاء والذكر والتلبية وتلاوة القرآن مستقبلًا القبلة.",
+     "لا تغادر عرفة قبل غروب الشمس."
+    ]
+   },
+   "references": [
+    "Qur'an 2:198-199",
+    "Hadith \"Al-Hajju Arafah\" (Ahmad, Abu Dawud, at-Tirmidhi, an-Nasa'i)",
+    "Sahih Muslim, hadith of Jabir (Muslim 1218)"
+   ]
+  },
+  {
+   "id": "hajj_muzdalifah",
+   "category": "hajj",
+   "order": 5,
+   "arabic": "مزدلفة",
+   "title": {
+    "bn": "মুযদালিফা",
+    "en": "Muzdalifah",
+    "ar": "مزدلفة"
+   },
+   "summary": {
+    "bn": "আরাফাত থেকে ফেরার পথে মুযদালিফায় রাত কাটানো হয়। এখানেই মাশআরুল হারাম অবস্থিত।",
+    "en": "On the way back from Arafat pilgrims spend the night in Muzdalifah, where Al-Mash'ar al-Haram is located.",
+    "ar": "بعد الدفع من عرفة يبيت الحجاج في مزدلفة، وفيها المشعر الحرام."
+   },
+   "steps": {
+    "bn": [
+     "সূর্যাস্তের পর শান্তভাবে আরাফাত থেকে মুযদালিফায় যান।",
+     "পৌঁছে মাগরিব ও ইশা একসাথে আদায় করুন (ইশা কসর)।",
+     "রাত কাটিয়ে ফজর আদায় করুন এবং আলো ফর্সা হওয়া পর্যন্ত যিকির ও দোয়া করুন।",
+     "দুর্বল ও বয়স্কদের জন্য আগে রওনা দেওয়ার অনুমতির বিষয়ে আলেমদের মতভেদ ও শর্ত আছে; আপনার দলের আলেমের নির্দেশনা অনুসরণ করুন।"
+    ],
+    "en": [
+     "After sunset leave Arafat calmly for Muzdalifah.",
+     "On arrival pray Maghrib and Isha together (Isha shortened).",
+     "Spend the night, pray Fajr, and make dhikr and dua until the sky is bright.",
+     "Scholars have given conditions for the weak and elderly to leave earlier; follow the guidance of your group's scholar."
+    ],
+    "ar": [
+     "بعد غروب الشمس انفِر من عرفة بسكينة إلى مزدلفة.",
+     "عند الوصول صلِّ المغرب والعشاء جمعًا (مع قصر العشاء).",
+     "بِت بها وصلِّ الفجر، وأكثر من الذكر والدعاء حتى يُسفر الصبح.",
+     "للعلماء تفصيل في أحوال الضعفة وكبار السن في الخروج مبكرًا؛ فاتبع إرشاد عالم مجموعتك."
+    ]
+   },
+   "references": [
+    "Qur'an 2:198",
+    "Sahih Muslim, hadith of Jabir (Muslim 1218)"
+   ]
+  },
+  {
+   "id": "hajj_jamarat",
+   "category": "hajj",
+   "order": 6,
+   "arabic": "الجمرات",
+   "title": {
+    "bn": "জামারাত (কঙ্কর নিক্ষেপ)",
+    "en": "Jamarat (stoning)",
+    "ar": "الجمرات (رمي الجمار)"
+   },
+   "summary": {
+    "bn": "মিনায় তিনটি জামারায় কঙ্কর নিক্ষেপ করা হজের একটি ওয়াজিব আমল।",
+    "en": "Stoning the three Jamarat in Mina is an obligatory rite of Hajj.",
+    "ar": "رمي الجمرات الثلاث في منى من واجبات الحج."
+   },
+   "steps": {
+    "bn": [
+     "১০ জিলহজ শুধু বড় জামারা (জামরাতুল আকাবা) তে সাতটি কঙ্কর নিক্ষেপ করুন; প্রতিটির সাথে \"আল্লাহু আকবার\" বলুন।",
+     "১১ ও ১২ জিলহজ (এবং ১৩ তারিখ, যারা থাকেন) সূর্য ঢলার পর ক্রমানুসারে ছোট, মধ্যম ও বড় জামারায় সাতটি করে কঙ্কর মারুন।",
+     "যারা তাড়াতাড়ি ফিরতে চান, তারা ১২ তারিখ সূর্যাস্তের আগে মিনা ত্যাগ করতে পারেন।",
+     "ভিড় নিয়ন্ত্রণে কর্তৃপক্ষের নির্ধারিত সময় ও পথনির্দেশ মেনে চলুন।"
+    ],
+    "en": [
+     "On 10 Dhul Hijjah stone only the large Jamrah (Jamrat al-Aqabah) with seven pebbles, saying \"Allahu Akbar\" with each.",
+     "On the 11th and 12th (and the 13th for those who stay), after the sun passes its zenith, stone the small, middle and large Jamarat in that order, seven pebbles each.",
+     "Those who wish to hurry may leave Mina on the 12th before sunset.",
+     "Follow the official crowd-management timings and routes."
+    ],
+    "ar": [
+     "يوم العيد (10 ذو الحجة) يُرمى جمرة العقبة الكبرى فقط بسبع حصيات، مكبّرًا مع كل حصاة.",
+     "في 11 و12 (و13 لمن تأخر) بعد الزوال يُرمى الجمرات: الصغرى فالوسطى فالكبرى، سبع حصيات لكل جمرة.",
+     "من أراد التعجّل خرج من منى يوم 12 قبل الغروب.",
+     "التزم بالأوقات والمسارات التي تحددها الجهات المنظِّمة لتفادي الزحام."
+    ]
+   },
+   "references": [
+    "Qur'an 2:203",
+    "Sahih Muslim, hadith of Jabir (Muslim 1218)"
+   ]
+  },
+  {
+   "id": "hajj_tawaf",
+   "category": "hajj",
+   "order": 7,
+   "arabic": "الطواف",
+   "title": {
+    "bn": "তাওয়াফ (হজে)",
+    "en": "Tawaf (in Hajj)",
+    "ar": "الطواف (في الحج)"
+   },
+   "summary": {
+    "bn": "হজে তাওয়াফের কয়েকটি রূপ আছে। তাওয়াফে ইফাযা হজের রুকন।",
+    "en": "Hajj includes several kinds of Tawaf. Tawaf al-Ifadah is a pillar of Hajj.",
+    "ar": "للحج أنواع من الطواف، وطواف الإفاضة ركن من أركانه."
+   },
+   "steps": {
+    "bn": [
+     "তাওয়াফুল কুদুম: মক্কায় পৌঁছানোর পর (সুন্নাহ)।",
+     "তাওয়াফে ইফাযা: ১০ জিলহজ বা তার পর কঙ্কর নিক্ষেপ ও হালক/তাকসীরের পর; এটি হজের রুকন।",
+     "তাওয়াফুল বিদা: মক্কা ছাড়ার আগে বিদায়ী তাওয়াফ; অধিকাংশ আলেমের মতে ওয়াজিব (ঋতুমতী নারীর জন্য ছাড় আছে)।",
+     "তাওয়াফের পদ্ধতির জন্য উমরাহর \"তাওয়াফ\" অংশ দেখুন।"
+    ],
+    "en": [
+     "Tawaf al-Qudum: on arrival in Makkah (Sunnah).",
+     "Tawaf al-Ifadah: on or after 10 Dhul Hijjah, after stoning and shaving/trimming; it is a pillar of Hajj.",
+     "Tawaf al-Wada: the farewell Tawaf before leaving Makkah; obligatory according to most scholars (a woman in menstruation is excused).",
+     "For the method of Tawaf see the \"Tawaf\" topic under Umrah."
+    ],
+    "ar": [
+     "طواف القدوم: عند الوصول إلى مكة (سنّة).",
+     "طواف الإفاضة: يوم النحر أو بعده بعد الرمي والحلق/التقصير، وهو ركن في الحج.",
+     "طواف الوداع: عند مغادرة مكة، وهو واجب عند جمهور العلماء (ويُعفى منه الحائض).",
+     "لصفة الطواف راجع موضوع «الطواف» في العمرة."
+    ]
+   },
+   "references": [
+    "Qur'an 22:29",
+    "Sahih al-Bukhari & Sahih Muslim, hadith of Ibn Abbas on the farewell Tawaf",
+    "Sahih Muslim, hadith of Jabir (Muslim 1218)"
+   ]
+  },
+  {
+   "id": "hajj_sai",
+   "category": "hajj",
+   "order": 8,
+   "arabic": "السعي",
+   "title": {
+    "bn": "সাঈ (হজে)",
+    "en": "Sa'i (in Hajj)",
+    "ar": "السعي (في الحج)"
+   },
+   "summary": {
+    "bn": "সাফা ও মারওয়ার মাঝে সাতবার যাতায়াত হজের আমল।",
+    "en": "Walking seven times between Safa and Marwa is a rite of Hajj.",
+    "ar": "السعي سبعة أشواط بين الصفا والمروة من أعمال الحج."
+   },
+   "steps": {
+    "bn": [
+     "সাফা থেকে শুরু করে মারওয়ায় শেষ করুন; একবার সাফা থেকে মারওয়া এক চক্কর।",
+     "হজের ধরন (তামাত্তু, কিরান, ইফরাদ) অনুযায়ী সাঈ কখন করতে হবে তা ভিন্ন হতে পারে; যিনি তাওয়াফুল কুদুমের সাথে করেননি, তিনি তাওয়াফে ইফাযার পর করেন।",
+     "আপনার হজের ধরনে ঠিক কী করণীয়, তা দলের আলেম বা গাইডের কাছ থেকে নিশ্চিত হয়ে নিন।"
+    ],
+    "en": [
+     "Start at Safa and finish at Marwa; each trip from one hill to the other counts as one lap.",
+     "When Sa'i is done depends on the type of Hajj (Tamattu', Qiran, Ifrad); whoever has not performed it after Tawaf al-Qudum performs it after Tawaf al-Ifadah.",
+     "Confirm with your group's scholar or guide exactly what applies to your type of Hajj."
+    ],
+    "ar": [
+     "ابدأ من الصفا وانتهِ بالمروة؛ وكل ذهاب من أحدهما إلى الآخر شوط.",
+     "يختلف وقت السعي بحسب نوع الحج (تمتع أو قران أو إفراد)؛ ومن لم يسعَ مع طواف القدوم سعى بعد طواف الإفاضة.",
+     "اسأل عالم مجموعتك أو مرشدك لتتأكد مما يخص نوع حجّك."
+    ]
+   },
+   "references": [
+    "Qur'an 2:158",
+    "Sahih Muslim, hadith of Jabir (Muslim 1218)"
+   ]
+  },
+  {
+   "id": "hajj_halq",
+   "category": "hajj",
+   "order": 9,
+   "arabic": "الحلق والتقصير",
+   "title": {
+    "bn": "হালক ও তাকসীর",
+    "en": "Halq and Taqsir",
+    "ar": "الحلق والتقصير"
+   },
+   "summary": {
+    "bn": "হালক হলো মাথা মুণ্ডন; তাকসীর হলো চুল ছোট করা। এর মাধ্যমে ইহরামের নিষেধাজ্ঞা থেকে মুক্ত হওয়া শুরু হয়।",
+    "en": "Halq is shaving the head; Taqsir is trimming the hair. Through it the Ihram restrictions begin to be lifted.",
+    "ar": "الحلق هو حلق الرأس، والتقصير هو قصّ الشعر، وبه يبدأ التحلّل من محظورات الإحرام."
+   },
+   "steps": {
+    "bn": [
+     "১০ জিলহজ বড় জামারায় কঙ্কর মারার পর (এবং কুরবানি প্রযোজ্য হলে তার পর) পুরুষেরা মাথা মুণ্ডন করেন, যা উত্তম; অথবা চুল ছোট করেন।",
+     "নারীরা চুলের প্রান্ত থেকে আঙুলের এক গিরা পরিমাণ কাটেন।",
+     "তামাত্তু ও কিরান হজে হাদী (কুরবানি) ওয়াজিব; প্রথম পর্যায়ের হালালের পর তাওয়াফে ইফাযা করলে পূর্ণ হালাল হওয়া যায়।"
+    ],
+    "en": [
+     "On 10 Dhul Hijjah, after stoning Jamrat al-Aqabah (and the sacrifice where applicable), men shave their heads, which is better, or trim.",
+     "Women trim a fingertip's length from the ends of their hair.",
+     "The Hady (sacrifice) is obligatory for Tamattu' and Qiran; after the first release, performing Tawaf al-Ifadah completes the release from Ihram."
+    ],
+    "ar": [
+     "يوم النحر بعد رمي جمرة العقبة (وبعد الهدي لمن عليه هدي) يحلق الرجل رأسه وهو الأفضل أو يقصّر.",
+     "والمرأة تقصّر قدر أنملة من أطراف شعرها.",
+     "الهدي واجب على المتمتع والقارن؛ وبعد التحلل الأول يتم التحلل الكامل بطواف الإفاضة."
+    ]
+   },
+   "references": [
+    "Qur'an 48:27",
+    "Qur'an 2:196",
+    "Sahih al-Bukhari & Sahih Muslim, hadith on supplication for those who shave and those who trim"
+   ]
+  },
+  {
+   "id": "umrah_prep",
+   "category": "umrah",
+   "order": 1,
+   "arabic": "التحضير",
+   "title": {
+    "bn": "প্রস্তুতি",
+    "en": "Preparation",
+    "ar": "الاستعداد"
+   },
+   "summary": {
+    "bn": "উমরাহর আগে নিয়ত, জ্ঞান, বৈধ আয় ও সরকারি নিয়ম মেনে প্রস্তুতি নিন।",
+    "en": "Before Umrah, prepare your intention, knowledge, lawful funds and official requirements.",
+    "ar": "قبل العمرة استعدّ بالنية والعلم والمال الحلال والالتزام بالأنظمة الرسمية."
+   },
+   "steps": {
+    "bn": [
+     "একমাত্র আল্লাহর সন্তুষ্টির জন্য নিয়ত খাঁটি করুন এবং তাওবা করুন।",
+     "হালাল অর্থ ব্যবহার করুন এবং পাওনা/ঋণ ও দায়িত্ব সম্পর্কে যথাসাধ্য ব্যবস্থা নিন।",
+     "উমরাহর আমলগুলো আগে শিখে নিন।",
+     "ভিসা, পারমিট, স্বাস্থ্যসংক্রান্ত শর্ত ও বুকিং সরকার-অনুমোদিত অফিসিয়াল মাধ্যমে যাচাই করুন।"
+    ],
+    "en": [
+     "Make your intention sincere for Allah alone and repent.",
+     "Use lawful funds and, as far as you can, settle debts and responsibilities.",
+     "Learn the rites of Umrah beforehand.",
+     "Check visas, permits, health requirements and bookings through official, government-approved channels."
+    ],
+    "ar": [
+     "أخلص النية لله وحده وتب إليه.",
+     "استعمل مالًا حلالًا، وأدِّ ما استطعت من الحقوق والديون.",
+     "تعلّم أعمال العمرة قبل السفر.",
+     "تحقق من التأشيرة والتصاريح والمتطلبات الصحية والحجوزات عبر القنوات الرسمية المعتمدة."
+    ]
+   },
+   "references": [
+    "Qur'an 2:196",
+    "General guidance; verify requirements with official Saudi authorities"
+   ]
+  },
+  {
+   "id": "umrah_ihram",
+   "category": "umrah",
+   "order": 2,
+   "arabic": "الإحرام",
+   "title": {
+    "bn": "উমরাহর ইহরাম",
+    "en": "Ihram for Umrah",
+    "ar": "الإحرام للعمرة"
+   },
+   "summary": {
+    "bn": "উমরাহর নিয়ত করে মীকাত থেকে ইহরামে প্রবেশ করুন।",
+    "en": "Enter Ihram for Umrah from the Miqat with the intention to perform Umrah.",
+    "ar": "ادخل في الإحرام للعمرة من الميقات ناويًا العمرة."
+   },
+   "steps": {
+    "bn": [
+     "গোসল বা ওযু করে ইহরামের পোশাক পরুন।",
+     "মীকাতে মনে মনে উমরাহর নিয়ত করুন এবং বলতে পারেন: \"লাব্বাইকা উমরাতান\"।",
+     "তাওয়াফ শুরু করা পর্যন্ত বেশি বেশি তালবিয়া পড়ুন: لَبَّيْكَ اللَّهُمَّ لَبَّيْكَ، لَبَّيْكَ لَا شَرِيكَ لَكَ لَبَّيْكَ، إِنَّ الْحَمْدَ وَالنِّعْمَةَ لَكَ وَالْمُلْكَ، لَا شَرِيكَ لَكَ"
+    ],
+    "en": [
+     "Take a ghusl or wudu and put on the Ihram clothes.",
+     "At the Miqat make the intention for Umrah and you may say: \"Labbayka Umratan\".",
+     "Recite the Talbiyah often until you begin Tawaf: لَبَّيْكَ اللَّهُمَّ لَبَّيْكَ، لَبَّيْكَ لَا شَرِيكَ لَكَ لَبَّيْكَ، إِنَّ الْحَمْدَ وَالنِّعْمَةَ لَكَ وَالْمُلْكَ، لَا شَرِيكَ لَكَ"
+    ],
+    "ar": [
+     "اغتسل أو توضأ والبس ثياب الإحرام.",
+     "عند الميقات انوِ العمرة ويمكنك أن تقول: «لبّيك عمرةً».",
+     "أكثر من التلبية حتى تبدأ الطواف: لَبَّيْكَ اللَّهُمَّ لَبَّيْكَ، لَبَّيْكَ لَا شَرِيكَ لَكَ لَبَّيْكَ، إِنَّ الْحَمْدَ وَالنِّعْمَةَ لَكَ وَالْمُلْكَ، لَا شَرِيكَ لَكَ"
+    ]
+   },
+   "references": [
+    "Sahih Muslim, hadith of Jabir (Muslim 1218)",
+    "Qur'an 2:196"
+   ]
+  },
+  {
+   "id": "umrah_tawaf",
+   "category": "umrah",
+   "order": 3,
+   "arabic": "الطواف",
+   "title": {
+    "bn": "তাওয়াফ",
+    "en": "Tawaf",
+    "ar": "الطواف"
+   },
+   "summary": {
+    "bn": "কাবাঘরকে বামে রেখে সাতবার প্রদক্ষিণ করাকে তাওয়াফ বলে।",
+    "en": "Tawaf is circling the Ka'bah seven times, keeping it on your left.",
+    "ar": "الطواف هو سبعة أشواط حول الكعبة تجعلها عن يسارك."
+   },
+   "steps": {
+    "bn": [
+     "ওযু অবস্থায় হাজরে আসওয়াদের বরাবর থেকে শুরু করুন; তার দিকে মুখ করে \"বিসমিল্লাহি আল্লাহু আকবার\" বলুন (স্পর্শ বা চুমু সম্ভব না হলে হাত দিয়ে ইশারা করুন)।",
+     "কাবা বাম পাশে রেখে সাত চক্কর দিন; পুরুষেরা ইযতিবা (ডান কাঁধ খোলা) করেন এবং প্রথম তিন চক্করে রমল (দ্রুত ছোট পদক্ষেপ) করেন।",
+     "রুকনে ইয়ামানি ও হাজরে আসওয়াদের মাঝে পড়ুন: \"রব্বানা আতিনা ফিদ-দুনইয়া হাসানাহ…\"",
+     "শেষে সম্ভব হলে মাকামে ইব্রাহিমের কাছে দুই রাকাত নামায পড়ুন এবং যমযমের পানি পান করুন।"
+    ],
+    "en": [
+     "In a state of wudu, begin in line with the Black Stone; face it and say \"Bismillahi, Allahu Akbar\" (touch or kiss it if possible, otherwise gesture with your hand).",
+     "Circle the Ka'bah seven times with it on your left; men uncover the right shoulder (idtiba) and walk briskly (ramal) in the first three circuits.",
+     "Between the Yemeni Corner and the Black Stone recite: \"Rabbana atina fid-dunya hasanah…\" (Qur'an 2:201).",
+     "Afterwards, if possible, pray two rak'ahs near Maqam Ibrahim and drink Zamzam."
+    ],
+    "ar": [
+     "وأنت على وضوء ابدأ محاذيًا للحجر الأسود؛ استقبله وقل «بسم الله والله أكبر» (والمس أو قبّل إن تيسر وإلا أشر بيدك).",
+     "اجعل الكعبة عن يسارك وطف سبعة أشواط؛ ويضطبع الرجل ويرمل في الأشواط الثلاثة الأولى.",
+     "بين الركن اليماني والحجر الأسود قل: «ربنا آتنا في الدنيا حسنة…» (البقرة 201).",
+     "ثم صلِّ ركعتين خلف مقام إبراهيم إن تيسر، واشرب من ماء زمزم."
+    ]
+   },
+   "references": [
+    "Qur'an 2:125",
+    "Qur'an 2:201",
+    "Qur'an 22:29",
+    "Sahih Muslim, hadith of Jabir (Muslim 1218)"
+   ]
+  },
+  {
+   "id": "umrah_sai",
+   "category": "umrah",
+   "order": 4,
+   "arabic": "السعي",
+   "title": {
+    "bn": "সাঈ",
+    "en": "Sa'i",
+    "ar": "السعي"
+   },
+   "summary": {
+    "bn": "সাফা ও মারওয়া পাহাড়ের মাঝে সাতবার যাতায়াত করাকে সাঈ বলে।",
+    "en": "Sa'i is walking seven times between the hills of Safa and Marwa.",
+    "ar": "السعي هو سبعة أشواط بين جبلي الصفا والمروة."
+   },
+   "steps": {
+    "bn": [
+     "সাফা থেকে শুরু করুন; সাফার কাছে পৌঁছে পড়ুন: \"ইন্নাস-সাফা ওয়াল-মারওয়াতা মিন শাআইরিল্লাহ\"।",
+     "কাবার দিকে মুখ করে তাকবীর বলুন ও দোয়া করুন, তারপর মারওয়ার দিকে হাঁটুন।",
+     "পুরুষেরা সবুজ বাতি চিহ্নিত অংশে দ্রুত হাঁটেন।",
+     "সপ্তম চক্কর মারওয়ায় শেষ করুন।"
+    ],
+    "en": [
+     "Start at Safa; as you approach it recite: \"Inna as-Safa wal-Marwata min sha'a'irillah\".",
+     "Face the Ka'bah, say takbir and make dua, then walk towards Marwa.",
+     "Men walk briskly between the green markers.",
+     "Finish the seventh lap at Marwa."
+    ],
+    "ar": [
+     "ابدأ من الصفا؛ وإذا دنوت منه فاقرأ: «إن الصفا والمروة من شعائر الله».",
+     "استقبل الكعبة وكبّر وادعُ، ثم امشِ نحو المروة.",
+     "يسعى الرجل سعيًا شديدًا بين العلمين الأخضرين.",
+     "اختم الشوط السابع عند المروة."
+    ]
+   },
+   "references": [
+    "Qur'an 2:158",
+    "Sahih Muslim, hadith of Jabir (Muslim 1218)"
+   ]
+  },
+  {
+   "id": "umrah_halq",
+   "category": "umrah",
+   "order": 5,
+   "arabic": "الحلق والتقصير",
+   "title": {
+    "bn": "হালক ও তাকসীর",
+    "en": "Halq and Taqsir",
+    "ar": "الحلق والتقصير"
+   },
+   "summary": {
+    "bn": "সাঈর পর চুল মুণ্ডন বা ছোট করে উমরাহ সম্পন্ন করা হয়।",
+    "en": "After Sa'i, shaving or trimming the hair completes the Umrah.",
+    "ar": "بعد السعي يُحلق الشعر أو يُقصّر فتتم العمرة."
+   },
+   "steps": {
+    "bn": [
+     "পুরুষেরা পুরো মাথার চুল মুণ্ডন করেন (উত্তম) অথবা সমানভাবে ছোট করেন।",
+     "নারীরা চুলের প্রান্ত থেকে আঙুলের এক গিরা পরিমাণ কাটেন।",
+     "এরপর ইহরামের নিষেধাজ্ঞা শেষ হয় এবং উমরাহ সম্পন্ন হয়।"
+    ],
+    "en": [
+     "Men shave the whole head (better) or trim evenly.",
+     "Women trim a fingertip's length from the ends of their hair.",
+     "The Ihram restrictions then end and the Umrah is complete."
+    ],
+    "ar": [
+     "يحلق الرجل رأسه كله وهو الأفضل أو يقصّر من جميعه.",
+     "وتقصّر المرأة قدر أنملة من أطراف شعرها.",
+     "وبذلك ينتهي الإحرام وتتم العمرة."
+    ]
+   },
+   "references": [
+    "Qur'an 48:27",
+    "Sahih al-Bukhari & Sahih Muslim, hadith on supplication for those who shave and those who trim"
+   ]
+  }
+ ]
+}

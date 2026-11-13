@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="brand_green">#0D5C45</color>
+    <color name="brand_green_dark">#073A2B</color>
+    <color name="brand_gold">#C59F52</color>
+    <color name="brand_gold_light">#E3C77E</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Theme colors: overridden in values-night -->
+    <color name="nusuk_primary">#0D5C45</color>
+    <color name="nusuk_on_primary">#FFFFFF</color>
+    <color name="nusuk_secondary">#C59F52</color>
+    <color name="nusuk_on_secondary">#1B1B1B</color>
+    <color name="nusuk_bg">#F7F8F5</color>
+    <color name="nusuk_card">#FFFFFF</color>
+    <color name="nusuk_text">#1B2420</color>
+    <color name="nusuk_text_secondary">#5A6660</color>
+    <color name="nusuk_outline">#D9DED8</color>
+    <color name="nusuk_success">#1B7F4B</color>
+    <color name="nusuk_error">#B3261E</color>
+    <color name="nusuk_bubble_user">#0D5C45</color>
+    <color name="nusuk_bubble_user_text">#FFFFFF</color>
+    <color name="nusuk_bubble_ai">#FFFFFF</color>
+</resources>

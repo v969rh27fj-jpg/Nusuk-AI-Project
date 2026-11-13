@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Language names are always written in their own script. -->
+    <string name="lang_name_bn" translatable="false">বাংলা</string>
+    <string name="lang_name_en" translatable="false">English</string>
+    <string name="lang_name_ar" translatable="false">العربية</string>
+    <string name="brand_name" translatable="false">Nusuk AI</string>
+    <string name="back_arrow" translatable="false">←</string>
+    <string name="check_mark" translatable="false">✓</string>
+</resources>

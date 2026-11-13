@@ -1,0 +1,799 @@
+{
+ "version": 1,
+ "reviewed": false,
+ "note": "Starter question bank. Not yet reviewed by a qualified scholar. Add more questions in this same format.",
+ "questions": [
+  {
+   "id": "q01",
+   "topic": "umrah_tawaf",
+   "q": {
+    "bn": "তাওয়াফে কাবাঘরকে কতবার প্রদক্ষিণ করতে হয়?",
+    "en": "How many circuits of the Ka'bah make up one Tawaf?",
+    "ar": "كم شوطًا يُطاف حول الكعبة في الطواف الواحد؟"
+   },
+   "options": {
+    "bn": [
+     "৩ বার",
+     "৫ বার",
+     "৭ বার",
+     "৯ বার"
+    ],
+    "en": [
+     "3",
+     "5",
+     "7",
+     "9"
+    ],
+    "ar": [
+     "3",
+     "5",
+     "7",
+     "9"
+    ]
+   },
+   "answer": 2,
+   "explanation": {
+    "bn": "তাওয়াফ সাত চক্করে সম্পন্ন হয়।",
+    "en": "Tawaf is completed in seven circuits.",
+    "ar": "يتم الطواف بسبعة أشواط."
+   },
+   "reference": "Sahih Muslim 1218"
+  },
+  {
+   "id": "q02",
+   "topic": "umrah_sai",
+   "q": {
+    "bn": "সাঈ-তে সাফা ও মারওয়ার মাঝে মোট কতবার যাতায়াত করা হয়?",
+    "en": "How many laps are walked between Safa and Marwa in Sa'i?",
+    "ar": "كم شوطًا يُسعى بين الصفا والمروة؟"
+   },
+   "options": {
+    "bn": [
+     "৩",
+     "৫",
+     "৭",
+     "১০"
+    ],
+    "en": [
+     "3",
+     "5",
+     "7",
+     "10"
+    ],
+    "ar": [
+     "3",
+     "5",
+     "7",
+     "10"
+    ]
+   },
+   "answer": 2,
+   "explanation": {
+    "bn": "সাঈ সাত চক্করের; সাফা থেকে মারওয়া এক চক্কর।",
+    "en": "Sa'i is seven laps; each trip from Safa to Marwa or back counts as one.",
+    "ar": "السعي سبعة أشواط، وكل ذهاب أو إياب شوط."
+   },
+   "reference": "Sahih Muslim 1218"
+  },
+  {
+   "id": "q03",
+   "topic": "umrah_sai",
+   "q": {
+    "bn": "সাঈ কোথা থেকে শুরু হয়?",
+    "en": "Where does Sa'i begin?",
+    "ar": "من أين يبدأ السعي؟"
+   },
+   "options": {
+    "bn": [
+     "মারওয়া",
+     "সাফা",
+     "মিনা",
+     "আরাফাত"
+    ],
+    "en": [
+     "Marwa",
+     "Safa",
+     "Mina",
+     "Arafat"
+    ],
+    "ar": [
+     "المروة",
+     "الصفا",
+     "منى",
+     "عرفات"
+    ]
+   },
+   "answer": 1,
+   "explanation": {
+    "bn": "সাঈ সাফা থেকে শুরু হয় এবং মারওয়ায় শেষ হয়।",
+    "en": "Sa'i starts at Safa and ends at Marwa.",
+    "ar": "يبدأ السعي من الصفا وينتهي بالمروة."
+   },
+   "reference": "Qur'an 2:158"
+  },
+  {
+   "id": "q04",
+   "topic": "hajj_miqat",
+   "q": {
+    "bn": "মদিনার দিক থেকে আগত হাজিদের মীকাত কোনটি?",
+    "en": "Which is the Miqat for pilgrims coming from the direction of Madinah?",
+    "ar": "ما ميقات القادمين من جهة المدينة؟"
+   },
+   "options": {
+    "bn": [
+     "ইয়ালামলাম",
+     "কারনুল-মানাযিল",
+     "যুল-হুলাইফা",
+     "আল-জুহফা"
+    ],
+    "en": [
+     "Yalamlam",
+     "Qarn al-Manazil",
+     "Dhul-Hulayfah",
+     "Al-Juhfah"
+    ],
+    "ar": [
+     "يلملم",
+     "قرن المنازل",
+     "ذو الحليفة",
+     "الجحفة"
+    ]
+   },
+   "answer": 2,
+   "explanation": {
+    "bn": "মদিনাবাসী ও সেদিক থেকে আগতদের মীকাত যুল-হুলাইফা।",
+    "en": "The Miqat for the people of Madinah, and those coming that way, is Dhul-Hulayfah.",
+    "ar": "ميقات أهل المدينة ومن جاء من جهتهم ذو الحليفة."
+   },
+   "reference": "Sahih al-Bukhari & Sahih Muslim, hadith of Ibn Abbas"
+  },
+  {
+   "id": "q05",
+   "topic": "hajj_arafat",
+   "q": {
+    "bn": "আরাফাতের দিন কোন তারিখে?",
+    "en": "On which date is the day of Arafat?",
+    "ar": "في أي تاريخ يقع يوم عرفة؟"
+   },
+   "options": {
+    "bn": [
+     "৮ জিলহজ",
+     "৯ জিলহজ",
+     "১০ জিলহজ",
+     "১২ জিলহজ"
+    ],
+    "en": [
+     "8 Dhul Hijjah",
+     "9 Dhul Hijjah",
+     "10 Dhul Hijjah",
+     "12 Dhul Hijjah"
+    ],
+    "ar": [
+     "8 ذو الحجة",
+     "9 ذو الحجة",
+     "10 ذو الحجة",
+     "12 ذو الحجة"
+    ]
+   },
+   "answer": 1,
+   "explanation": {
+    "bn": "আরাফাতের উকুফ ৯ জিলহজ।",
+    "en": "Standing at Arafat takes place on 9 Dhul Hijjah.",
+    "ar": "الوقوف بعرفة يكون في التاسع من ذي الحجة."
+   },
+   "reference": "Sahih Muslim 1218"
+  },
+  {
+   "id": "q06",
+   "topic": "hajj_arafat",
+   "q": {
+    "bn": "কোন আমলকে হাদিসে \"হজ\" বলে আখ্যায়িত করা হয়েছে (\"আল-হাজ্জু আরাফাহ\")?",
+    "en": "Which rite does the hadith describe as \"Hajj\" (\"Al-Hajju Arafah\")?",
+    "ar": "أي عمل وصفه الحديث بأنه «الحج» (الحج عرفة)؟"
+   },
+   "options": {
+    "bn": [
+     "আরাফাতে অবস্থান",
+     "কঙ্কর নিক্ষেপ",
+     "বিদায়ী তাওয়াফ",
+     "মাথা মুণ্ডন"
+    ],
+    "en": [
+     "Standing at Arafat",
+     "Stoning the Jamarat",
+     "The farewell Tawaf",
+     "Shaving the head"
+    ],
+    "ar": [
+     "الوقوف بعرفة",
+     "رمي الجمرات",
+     "طواف الوداع",
+     "حلق الرأس"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "bn": "আরাফাতে অবস্থান হজের প্রধান রুকন।",
+    "en": "Standing at Arafat is the main pillar of Hajj.",
+    "ar": "الوقوف بعرفة هو الركن الأعظم للحج."
+   },
+   "reference": "Ahmad, Abu Dawud, at-Tirmidhi, an-Nasa'i"
+  },
+  {
+   "id": "q07",
+   "topic": "hajj_muzdalifah",
+   "q": {
+    "bn": "আরাফাতের পর হাজিরা রাত কোথায় কাটান?",
+    "en": "Where do pilgrims spend the night after Arafat?",
+    "ar": "أين يبيت الحجاج بعد عرفة؟"
+   },
+   "options": {
+    "bn": [
+     "মিনায়",
+     "মুযদালিফায়",
+     "মক্কার হারামে",
+     "মদিনায়"
+    ],
+    "en": [
+     "In Mina",
+     "In Muzdalifah",
+     "In the Haram of Makkah",
+     "In Madinah"
+    ],
+    "ar": [
+     "في منى",
+     "في مزدلفة",
+     "في الحرم المكي",
+     "في المدينة"
+    ]
+   },
+   "answer": 1,
+   "explanation": {
+    "bn": "৯ জিলহজ রাতে মুযদালিফায় অবস্থান করা হয়।",
+    "en": "The night of 9 Dhul Hijjah is spent in Muzdalifah.",
+    "ar": "يُبات في مزدلفة ليلة العاشر."
+   },
+   "reference": "Qur'an 2:198; Sahih Muslim 1218"
+  },
+  {
+   "id": "q08",
+   "topic": "hajj_jamarat",
+   "q": {
+    "bn": "প্রতিটি জামারায় সাধারণত কতটি কঙ্কর নিক্ষেপ করা হয়?",
+    "en": "How many pebbles are thrown at each Jamrah?",
+    "ar": "كم حصاة تُرمى عند كل جمرة؟"
+   },
+   "options": {
+    "bn": [
+     "৩টি",
+     "৫টি",
+     "৭টি",
+     "২১টি"
+    ],
+    "en": [
+     "3",
+     "5",
+     "7",
+     "21"
+    ],
+    "ar": [
+     "3",
+     "5",
+     "7",
+     "21"
+    ]
+   },
+   "answer": 2,
+   "explanation": {
+    "bn": "প্রতিটি জামারায় সাতটি করে কঙ্কর মারা হয়।",
+    "en": "Seven pebbles are thrown at each Jamrah.",
+    "ar": "يُرمى بسبع حصيات عند كل جمرة."
+   },
+   "reference": "Sahih Muslim 1218"
+  },
+  {
+   "id": "q09",
+   "topic": "hajj_jamarat",
+   "q": {
+    "bn": "১০ জিলহজ কোন জামারায় কঙ্কর নিক্ষেপ করা হয়?",
+    "en": "Which Jamrah is stoned on 10 Dhul Hijjah?",
+    "ar": "أي جمرة تُرمى يوم العاشر من ذي الحجة؟"
+   },
+   "options": {
+    "bn": [
+     "ছোট জামারা",
+     "মধ্যম জামারা",
+     "বড় জামারা (আকাবা)",
+     "তিনটিই"
+    ],
+    "en": [
+     "The small Jamrah",
+     "The middle Jamrah",
+     "The large Jamrah (Aqabah)",
+     "All three"
+    ],
+    "ar": [
+     "الجمرة الصغرى",
+     "الجمرة الوسطى",
+     "الجمرة الكبرى (العقبة)",
+     "الثلاث جميعًا"
+    ]
+   },
+   "answer": 2,
+   "explanation": {
+    "bn": "ঈদের দিন শুধু জামরাতুল আকাবা।",
+    "en": "On the day of Eid only Jamrat al-Aqabah is stoned.",
+    "ar": "يوم العيد تُرمى جمرة العقبة وحدها."
+   },
+   "reference": "Sahih Muslim 1218"
+  },
+  {
+   "id": "q10",
+   "topic": "hajj_jamarat",
+   "q": {
+    "bn": "আইয়ামে তাশরীকে জামারাতের ক্রম কী?",
+    "en": "What is the order of the Jamarat on the days of Tashreeq?",
+    "ar": "ما ترتيب رمي الجمرات في أيام التشريق؟"
+   },
+   "options": {
+    "bn": [
+     "বড়, মধ্যম, ছোট",
+     "ছোট, মধ্যম, বড়",
+     "মধ্যম, ছোট, বড়",
+     "যেকোনো ক্রমে"
+    ],
+    "en": [
+     "Large, middle, small",
+     "Small, middle, large",
+     "Middle, small, large",
+     "Any order"
+    ],
+    "ar": [
+     "الكبرى ثم الوسطى ثم الصغرى",
+     "الصغرى ثم الوسطى ثم الكبرى",
+     "الوسطى ثم الصغرى ثم الكبرى",
+     "بأي ترتيب"
+    ]
+   },
+   "answer": 1,
+   "explanation": {
+    "bn": "ছোট, তারপর মধ্যম, তারপর বড় জামারা।",
+    "en": "First the small, then the middle, then the large Jamrah.",
+    "ar": "تُرمى الصغرى ثم الوسطى ثم الكبرى."
+   },
+   "reference": "Sahih Muslim 1218"
+  },
+  {
+   "id": "q11",
+   "topic": "hajj_ihram",
+   "q": {
+    "bn": "পুরুষের ইহরামের পোশাক কী?",
+    "en": "What is the Ihram clothing for men?",
+    "ar": "ما لباس الإحرام للرجال؟"
+   },
+   "options": {
+    "bn": [
+     "সেলাই করা সাদা জামা",
+     "সেলাইবিহীন দুই টুকরো সাদা কাপড়",
+     "যেকোনো রঙের পাঞ্জাবি",
+     "সবুজ চাদর"
+    ],
+    "en": [
+     "A stitched white shirt",
+     "Two unstitched white sheets",
+     "A kurta of any colour",
+     "A green cloak"
+    ],
+    "ar": [
+     "قميص أبيض مخيط",
+     "إزار ورداء أبيضان غير مخيطين",
+     "جلباب بأي لون",
+     "عباءة خضراء"
+    ]
+   },
+   "answer": 1,
+   "explanation": {
+    "bn": "পুরুষেরা সেলাইবিহীন ইযার ও রিদা পরেন।",
+    "en": "Men wear an unstitched izar and rida.",
+    "ar": "يلبس الرجل إزارًا ورداءً غير مخيطين."
+   },
+   "reference": "Sahih al-Bukhari & Sahih Muslim, hadith of Ibn Umar"
+  },
+  {
+   "id": "q12",
+   "topic": "umrah_tawaf",
+   "q": {
+    "bn": "তাওয়াফ কোথা থেকে শুরু হয়?",
+    "en": "Where does Tawaf begin?",
+    "ar": "من أين يبدأ الطواف؟"
+   },
+   "options": {
+    "bn": [
+     "মাকামে ইব্রাহিম থেকে",
+     "হাজরে আসওয়াদ বরাবর",
+     "সাফা থেকে",
+     "যমযম কূপ থেকে"
+    ],
+    "en": [
+     "From Maqam Ibrahim",
+     "In line with the Black Stone",
+     "From Safa",
+     "From the Zamzam well"
+    ],
+    "ar": [
+     "من مقام إبراهيم",
+     "من محاذاة الحجر الأسود",
+     "من الصفا",
+     "من بئر زمزم"
+    ]
+   },
+   "answer": 1,
+   "explanation": {
+    "bn": "তাওয়াফ হাজরে আসওয়াদ বরাবর থেকে শুরু ও সেখানেই শেষ হয়।",
+    "en": "Tawaf begins and ends in line with the Black Stone.",
+    "ar": "يبدأ الطواف وينتهي عند محاذاة الحجر الأسود."
+   },
+   "reference": "Sahih Muslim 1218"
+  },
+  {
+   "id": "q13",
+   "topic": "umrah_tawaf",
+   "q": {
+    "bn": "তাওয়াফের সময় কাবা কোন দিকে থাকে?",
+    "en": "On which side is the Ka'bah during Tawaf?",
+    "ar": "في أي جهة تكون الكعبة أثناء الطواف؟"
+   },
+   "options": {
+    "bn": [
+     "ডানে",
+     "বামে",
+     "সামনে",
+     "পেছনে"
+    ],
+    "en": [
+     "On your right",
+     "On your left",
+     "In front",
+     "Behind"
+    ],
+    "ar": [
+     "عن يمينك",
+     "عن يسارك",
+     "أمامك",
+     "خلفك"
+    ]
+   },
+   "answer": 1,
+   "explanation": {
+    "bn": "কাবা বাম পাশে রেখে প্রদক্ষিণ করা হয়।",
+    "en": "The Ka'bah is kept on the left.",
+    "ar": "تُجعل الكعبة عن اليسار."
+   },
+   "reference": "Sahih Muslim 1218"
+  },
+  {
+   "id": "q14",
+   "topic": "umrah_tawaf",
+   "q": {
+    "bn": "তাওয়াফ শেষে দুই রাকাত নামায কোথায় পড়া সুন্নাহ?",
+    "en": "Where is it Sunnah to pray two rak'ahs after Tawaf?",
+    "ar": "أين تُسنّ ركعتا الطواف؟"
+   },
+   "options": {
+    "bn": [
+     "মাকামে ইব্রাহিমের কাছে",
+     "মিনায়",
+     "আরাফাতে",
+     "সাফা পাহাড়ে"
+    ],
+    "en": [
+     "Near Maqam Ibrahim",
+     "In Mina",
+     "In Arafat",
+     "On Mount Safa"
+    ],
+    "ar": [
+     "عند مقام إبراهيم",
+     "في منى",
+     "في عرفة",
+     "على جبل الصفا"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "bn": "সম্ভব হলে মাকামে ইব্রাহিমের কাছে; না হলে হারামের অন্য স্থানে পড়া যায়।",
+    "en": "Near Maqam Ibrahim if possible; otherwise elsewhere in the Haram.",
+    "ar": "خلف المقام إن تيسر وإلا ففي أي مكان من الحرم."
+   },
+   "reference": "Qur'an 2:125"
+  },
+  {
+   "id": "q15",
+   "topic": "hajj_ihram",
+   "q": {
+    "bn": "তালবিয়া কোন বাক্য দিয়ে শুরু হয়?",
+    "en": "With which phrase does the Talbiyah begin?",
+    "ar": "بأي عبارة تبدأ التلبية؟"
+   },
+   "options": {
+    "bn": [
+     "সুবহানাল্লাহ",
+     "লাব্বাইকাল্লাহুম্মা লাব্বাইক",
+     "আল্লাহু আকবার",
+     "আলহামদুলিল্লাহ"
+    ],
+    "en": [
+     "Subhan Allah",
+     "Labbayka Allahumma labbayk",
+     "Allahu Akbar",
+     "Alhamdulillah"
+    ],
+    "ar": [
+     "سبحان الله",
+     "لبيك اللهم لبيك",
+     "الله أكبر",
+     "الحمد لله"
+    ]
+   },
+   "answer": 1,
+   "explanation": {
+    "bn": "তালবিয়া \"লাব্বাইকাল্লাহুম্মা লাব্বাইক\" দিয়ে শুরু।",
+    "en": "The Talbiyah begins with \"Labbayka Allahumma labbayk\".",
+    "ar": "تبدأ التلبية بـ «لبيك اللهم لبيك»."
+   },
+   "reference": "Sahih al-Bukhari & Sahih Muslim"
+  },
+  {
+   "id": "q16",
+   "topic": "hajj_halq",
+   "q": {
+    "bn": "\"হালক\" শব্দের অর্থ কী?",
+    "en": "What does \"Halq\" mean?",
+    "ar": "ما معنى «الحلق»؟"
+   },
+   "options": {
+    "bn": [
+     "চুল ছোট করা",
+     "মাথা মুণ্ডন",
+     "গোসল",
+     "কুরবানি"
+    ],
+    "en": [
+     "Trimming the hair",
+     "Shaving the head",
+     "Ghusl",
+     "Sacrifice"
+    ],
+    "ar": [
+     "قصّ الشعر",
+     "حلق الرأس",
+     "الغسل",
+     "الأضحية"
+    ]
+   },
+   "answer": 1,
+   "explanation": {
+    "bn": "হালক = মাথা মুণ্ডন; তাকসীর = চুল ছোট করা।",
+    "en": "Halq = shaving the head; Taqsir = trimming.",
+    "ar": "الحلق = إزالة شعر الرأس؛ والتقصير = قصّه."
+   },
+   "reference": "Qur'an 48:27"
+  },
+  {
+   "id": "q17",
+   "topic": "hajj_halq",
+   "q": {
+    "bn": "নারীদের জন্য ইহরাম থেকে হালাল হওয়ার সময় কী করণীয়?",
+    "en": "What do women do to come out of Ihram?",
+    "ar": "ماذا تفعل المرأة للتحلل من الإحرام؟"
+   },
+   "options": {
+    "bn": [
+     "মাথা মুণ্ডন করেন",
+     "চুলের প্রান্ত থেকে আঙুলের এক গিরা পরিমাণ কাটেন",
+     "কিছুই করতে হয় না",
+     "সম্পূর্ণ চুল কেটে ফেলেন"
+    ],
+    "en": [
+     "Shave the head",
+     "Trim a fingertip's length from the ends of the hair",
+     "Nothing is required",
+     "Cut all the hair"
+    ],
+    "ar": [
+     "تحلق رأسها",
+     "تقصّر قدر أنملة من أطراف الشعر",
+     "لا شيء عليها",
+     "تقصّ الشعر كله"
+    ]
+   },
+   "answer": 1,
+   "explanation": {
+    "bn": "নারীরা মাথা মুণ্ডন করেন না; চুলের প্রান্ত থেকে সামান্য কাটেন।",
+    "en": "Women do not shave; they trim a little from the ends.",
+    "ar": "المرأة لا تحلق؛ بل تقصّر من أطراف شعرها."
+   },
+   "reference": "Sunan Abi Dawud (hadith on women and taqsir)"
+  },
+  {
+   "id": "q18",
+   "topic": "hajj_mina",
+   "q": {
+    "bn": "ইয়াউমুত-তারউইয়াহ কোন তারিখ?",
+    "en": "Which date is Yawm at-Tarwiyah?",
+    "ar": "ما تاريخ يوم التروية؟"
+   },
+   "options": {
+    "bn": [
+     "৭ জিলহজ",
+     "৮ জিলহজ",
+     "৯ জিলহজ",
+     "১০ জিলহজ"
+    ],
+    "en": [
+     "7 Dhul Hijjah",
+     "8 Dhul Hijjah",
+     "9 Dhul Hijjah",
+     "10 Dhul Hijjah"
+    ],
+    "ar": [
+     "7 ذو الحجة",
+     "8 ذو الحجة",
+     "9 ذو الحجة",
+     "10 ذو الحجة"
+    ]
+   },
+   "answer": 1,
+   "explanation": {
+    "bn": "৮ জিলহজ হাজিরা মিনায় যান।",
+    "en": "On 8 Dhul Hijjah pilgrims go to Mina.",
+    "ar": "في الثامن من ذي الحجة يتوجه الحجاج إلى منى."
+   },
+   "reference": "Sahih Muslim 1218"
+  },
+  {
+   "id": "q19",
+   "topic": "umrah_prep",
+   "q": {
+    "bn": "নিচের কোনটি উমরাহর আমল নয়?",
+    "en": "Which of these is NOT a rite of Umrah?",
+    "ar": "أي مما يلي ليس من أعمال العمرة؟"
+   },
+   "options": {
+    "bn": [
+     "ইহরাম",
+     "তাওয়াফ",
+     "আরাফাতে অবস্থান",
+     "সাঈ"
+    ],
+    "en": [
+     "Ihram",
+     "Tawaf",
+     "Standing at Arafat",
+     "Sa'i"
+    ],
+    "ar": [
+     "الإحرام",
+     "الطواف",
+     "الوقوف بعرفة",
+     "السعي"
+    ]
+   },
+   "answer": 2,
+   "explanation": {
+    "bn": "আরাফাতে অবস্থান কেবল হজের আমল।",
+    "en": "Standing at Arafat belongs to Hajj only.",
+    "ar": "الوقوف بعرفة خاص بالحج."
+   },
+   "reference": "General Hajj/Umrah fiqh references"
+  },
+  {
+   "id": "q20",
+   "topic": "hajj_tawaf",
+   "q": {
+    "bn": "বিদায়ী তাওয়াফের আরবি নাম কী?",
+    "en": "What is the Arabic name of the farewell Tawaf?",
+    "ar": "ما اسم طواف الوداع بالعربية؟"
+   },
+   "options": {
+    "bn": [
+     "তাওয়াফুল ইফাযা",
+     "তাওয়াফুল কুদুম",
+     "তাওয়াফুল বিদা",
+     "তাওয়াফুন নফল"
+    ],
+    "en": [
+     "Tawaf al-Ifadah",
+     "Tawaf al-Qudum",
+     "Tawaf al-Wada'",
+     "Tawaf an-Nafl"
+    ],
+    "ar": [
+     "طواف الإفاضة",
+     "طواف القدوم",
+     "طواف الوداع",
+     "طواف النفل"
+    ]
+   },
+   "answer": 2,
+   "explanation": {
+    "bn": "মক্কা ছাড়ার আগে তাওয়াফুল বিদা করা হয়।",
+    "en": "Tawaf al-Wada' is done before leaving Makkah.",
+    "ar": "طواف الوداع يؤدى عند مغادرة مكة."
+   },
+   "reference": "Sahih al-Bukhari & Sahih Muslim, hadith of Ibn Abbas"
+  },
+  {
+   "id": "q21",
+   "topic": "hajj_muzdalifah",
+   "q": {
+    "bn": "মুযদালিফায় মাগরিব ও ইশা কীভাবে পড়া হয়?",
+    "en": "How are Maghrib and Isha prayed in Muzdalifah?",
+    "ar": "كيف تُصلّى المغرب والعشاء في مزدلفة؟"
+   },
+   "options": {
+    "bn": [
+     "আলাদা সময়ে",
+     "একসাথে (জমা), ইশা কসর",
+     "শুধু মাগরিব",
+     "পড়তে হয় না"
+    ],
+    "en": [
+     "Separately at their times",
+     "Together, with Isha shortened",
+     "Only Maghrib",
+     "Not prayed"
+    ],
+    "ar": [
+     "كلٌّ في وقته",
+     "جمعًا مع قصر العشاء",
+     "المغرب فقط",
+     "لا تُصلّى"
+    ]
+   },
+   "answer": 1,
+   "explanation": {
+    "bn": "সুন্নাহ হলো মুযদালিফায় পৌঁছে একসাথে পড়া।",
+    "en": "The Sunnah is to pray them together on arrival in Muzdalifah.",
+    "ar": "السنّة أن يُجمعا عند الوصول إلى مزدلفة."
+   },
+   "reference": "Sahih Muslim 1218"
+  },
+  {
+   "id": "q22",
+   "topic": "hajj_mina",
+   "q": {
+    "bn": "মিনায় হাজিরা নামায কীভাবে পড়েন?",
+    "en": "How do pilgrims pray in Mina?",
+    "ar": "كيف يصلّي الحجاج في منى؟"
+   },
+   "options": {
+    "bn": [
+     "সব নামায জমা করে",
+     "চার রাকাতের নামায কসর (২ রাকাত), জমা ছাড়া",
+     "শুধু ফরয",
+     "মসজিদে নামায নিষেধ"
+    ],
+    "en": [
+     "Combining all prayers",
+     "Shortening four-rak'ah prayers to two, without combining",
+     "Only obligatory prayers",
+     "Prayer in mosques is forbidden"
+    ],
+    "ar": [
+     "جمع جميع الصلوات",
+     "قصر الرباعية دون جمع",
+     "الفرائض فقط",
+     "تُمنع الصلاة في المساجد"
+    ]
+   },
+   "answer": 1,
+   "explanation": {
+    "bn": "মিনায় কসর করা হয়, জমা নয়।",
+    "en": "In Mina prayers are shortened, not combined.",
+    "ar": "في منى تُقصر الصلوات ولا تُجمع."
+   },
+   "reference": "Sahih Muslim 1218"
+  }
+ ]
+}

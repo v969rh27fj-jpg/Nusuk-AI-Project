@@ -1,0 +1,13 @@
+{
+  "name": "nusuk-ai-backend",
+  "version": "1.0.0",
+  "description": "Secure AI proxy for the Nusuk AI Android app (zero dependencies).",
+  "main": "src/server.js",
+  "private": true,
+  "license": "UNLICENSED",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test"
+  }
+}

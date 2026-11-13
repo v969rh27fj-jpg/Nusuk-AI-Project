@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="nusuk_primary">#4FB58F</color>
+    <color name="nusuk_on_primary">#00251A</color>
+    <color name="nusuk_secondary">#E3C77E</color>
+    <color name="nusuk_on_secondary">#1B1B1B</color>
+    <color name="nusuk_bg">#101612</color>
+    <color name="nusuk_card">#19211C</color>
+    <color name="nusuk_text">#E8EEE9</color>
+    <color name="nusuk_text_secondary">#A5B1A9</color>
+    <color name="nusuk_outline">#33403A</color>
+    <color name="nusuk_success">#5FD39A</color>
+    <color name="nusuk_error">#F2B8B5</color>
+    <color name="nusuk_bubble_user">#1F6F55</color>
+    <color name="nusuk_bubble_user_text">#FFFFFF</color>
+    <color name="nusuk_bubble_ai">#19211C</color>
+</resources>
